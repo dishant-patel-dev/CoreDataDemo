@@ -16,6 +16,8 @@
 		176490621CD6579E00854ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176490601CD6579E00854ACD /* LaunchScreen.storyboard */; };
 		1764906D1CD6579F00854ACD /* CoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1764906C1CD6579F00854ACD /* CoreDataDemoTests.m */; };
 		176490781CD6579F00854ACD /* CoreDataDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 176490771CD6579F00854ACD /* CoreDataDemoUITests.m */; };
+		176490871CD667B200854ACD /* DeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176490861CD667B200854ACD /* DeviceTableViewController.m */; };
+		176490891CD66DB400854ACD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176490881CD66DB400854ACD /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		176490731CD6579F00854ACD /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		176490771CD6579F00854ACD /* CoreDataDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemoUITests.m; sourceTree = "<group>"; };
 		176490791CD6579F00854ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176490851CD667B200854ACD /* DeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewController.h; sourceTree = "<group>"; };
+		176490861CD667B200854ACD /* DeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewController.m; sourceTree = "<group>"; };
+		176490881CD66DB400854ACD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176490891CD66DB400854ACD /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 		176490431CD6579D00854ACD = {
 			isa = PBXGroup;
 			children = (
+				176490881CD66DB400854ACD /* CoreData.framework */,
 				1764904E1CD6579E00854ACD /* CoreDataDemo */,
 				1764906B1CD6579F00854ACD /* CoreDataDemoTests */,
 				176490761CD6579F00854ACD /* CoreDataDemoUITests */,
@@ -105,6 +112,8 @@
 			children = (
 				176490521CD6579E00854ACD /* AppDelegate.h */,
 				176490531CD6579E00854ACD /* AppDelegate.m */,
+				176490851CD667B200854ACD /* DeviceTableViewController.h */,
+				176490861CD667B200854ACD /* DeviceTableViewController.m */,
 				176490551CD6579E00854ACD /* ViewController.h */,
 				176490561CD6579E00854ACD /* ViewController.m */,
 				176490581CD6579E00854ACD /* Main.storyboard */,
@@ -276,6 +285,7 @@
 				176490571CD6579E00854ACD /* ViewController.m in Sources */,
 				1764905D1CD6579E00854ACD /* CoreDataDemo.xcdatamodeld in Sources */,
 				176490541CD6579E00854ACD /* AppDelegate.m in Sources */,
+				176490871CD667B200854ACD /* DeviceTableViewController.m in Sources */,
 				176490511CD6579E00854ACD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +510,7 @@
 				1764907E1CD6579F00854ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1764907F1CD6579F00854ACD /* Build configuration list for PBXNativeTarget "CoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +519,7 @@
 				176490811CD6579F00854ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		176490821CD6579F00854ACD /* Build configuration list for PBXNativeTarget "CoreDataDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +528,7 @@
 				176490841CD6579F00854ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
